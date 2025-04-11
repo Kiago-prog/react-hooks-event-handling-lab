@@ -1,9 +1,11 @@
-// Code Keypad Component Here
-
-function Keypad (){
+// src/components/Keypad.js
+export default function Keypad() {
     return (
-        <div></div>
-    )
-}
+      <input
+        type="password"
+        onChange={() => console.log("Entering password...")}
+      />
+    );
+  }
 
-export default Keypad;
+  
